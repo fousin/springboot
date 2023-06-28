@@ -1,0 +1,6 @@
+spring.datasource.url=jdbc:postgresql://localhost:{porta definida do postgre}/
+spring.datasource.username={seu username no postgre}
+spring.datasource.password={sua senha no postgre}
+spring.jpa.hibernate.ddl-auto=update
+
+spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
